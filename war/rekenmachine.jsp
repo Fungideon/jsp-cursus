@@ -25,7 +25,7 @@
 						b = Double.parseDouble(tweede);
 						getaleen = "" + (a + b);
 					} catch (NumberFormatException e){
-						foutboodschap = "Voer twee een geldige waarde in.";
+						foutboodschap = "Voer twee geldige waarde in.";
 					}
 				}else if(request.getParameter("minus") != null){
 					eerste = request.getParameter("getaleen");
@@ -35,7 +35,7 @@
 						b = Double.parseDouble(tweede);
 						getaleen = "" + (a - b);
 					} catch (NumberFormatException e){
-						foutboodschap = "Voer twee een geldige waarde in.";
+						foutboodschap = "Voer twee geldige waarde in.";
 					}
 				}else if(request.getParameter("keer") != null){
 					eerste = request.getParameter("getaleen");
@@ -45,7 +45,7 @@
 						b = Double.parseDouble(tweede);
 						getaleen = "" + (a * b);
 					} catch (NumberFormatException e){
-						foutboodschap = "Voer twee een geldige waarde in.";
+						foutboodschap = "Voer twee geldige waarde in.";
 					}
 				}else if(request.getParameter("deel") != null){
 					eerste = request.getParameter("getaleen");
@@ -55,7 +55,7 @@
 						b = Double.parseDouble(tweede);
 						getaleen = "" + (a / b);
 					} catch (NumberFormatException e){
-						foutboodschap = "Voer twee een geldige waarde in.";
+						foutboodschap = "Voer twee geldige waarde in.";
 					}
 				}
 			}
